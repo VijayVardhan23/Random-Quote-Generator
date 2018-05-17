@@ -1,0 +1,41 @@
+body{
+	background-image: url(images/bg.jpg);
+	background-size: cover;
+}
+
+
+.jumbotron{
+	text-align: center;
+	opacity: 0.5;
+}
+
+#button,
+#link {
+  box-sizing: border-box;
+  border: 1px solid gray;
+  padding: 0 35px;
+  line-height: 60px;
+  background: #415556;
+  font-size: 24px;
+  color: #fff;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 5px;
+  float: center;
+  height: 60px;
+  
+  
+}
+#link {
+  width: 60px;
+  float: center;
+  font-size: 24px;
+  padding-right: 0;
+  padding-left: 0;
+  
+}
+
+p#quote{
+	font-size: 50px;
+	color: red;
+}
